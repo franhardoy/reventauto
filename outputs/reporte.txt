@@ -1,81 +1,81 @@
 Se descartaron 10 publicaciones con residuo > 3 desvíos (anticipos, planes de ahorro, errores de carga). Ver publicaciones_descartadas_outliers.csv
 
 # EDA
- n = 828 publicaciones (18 Kavak, 810 MercadoLibre)
+ n = 807 publicaciones (18 Kavak, 789 MercadoLibre)
 
        price_usd    year    age        km
-count      828.0   828.0  828.0     828.0
-mean     18074.0  2022.0    4.0   52923.0
-std       3568.0     3.0    3.0   39926.0
+count      807.0   807.0  807.0     807.0
+mean     18074.0  2022.0    4.0   53400.0
+std       3578.0     3.0    3.0   40133.0
 min      10000.0  2016.0    0.0       0.0
-25%      15334.0  2021.0    1.0   19000.0
-50%      17588.0  2023.0    3.0   48000.0
-75%      20500.0  2025.0    5.0   80041.0
+25%      15294.0  2021.0    1.0   19000.0
+50%      17588.0  2023.0    3.0   48500.0
+75%      20500.0  2025.0    5.0   80354.0
 max      30490.0  2027.0   10.0  214720.0 
 
 Correlaciones (Pearson) con precio USD:
  price_usd        1.00
 age             -0.76
-km              -0.75
+km              -0.76
 manual          -0.40
-sedan           -0.24
+sedan           -0.25
 kavak           -0.00
-listed_in_usd    0.28
-interior        -0.08
+listed_in_usd    0.29
+interior        -0.07
 is_new           0.43 
 
 Precio por version:
            count   median     mean
 version                          
 ND           38  13059.0  14863.0
-S           256  20888.0  20373.0
-XLS         295  16500.0  16842.0
-XLS Pack    102  17765.0  17695.0
-XS          137  17941.0  17604.0 
+S           250  20891.0  20392.0
+XLS         289  16500.0  16829.0
+XLS Pack     97  17941.0  17726.0
+XS          133  17941.0  17593.0 
 
 Precio por transmission:
                count   median     mean
 transmission                         
-automatico      593  18824.0  18979.0
-manual          235  15471.0  15792.0 
+automatico      579  18824.0  18981.0
+manual          228  15374.0  15770.0 
 
 Precio por body:
             count   median     mean
 body                              
-hatchback    713  18000.0  18424.0
+hatchback    692  18000.0  18434.0
 sedan        115  15588.0  15904.0 
 
 Precio por source:
                count   median     mean
 source                               
 kavak            18  16797.0  18048.0
-mercadolibre    810  17588.0  18075.0 
+mercadolibre    789  17588.0  18074.0 
 
 Precio por region:
            count   median     mean
 region                           
-AMBA        250  18176.0  18481.0
-Interior    578  17353.0  17898.0 
+AMBA        240  18176.0  18485.0
+Interior    567  17353.0  17900.0 
 
 Precio por currency:
            count   median     mean
 currency                         
-$           596  17056.0  17452.0
-US$         232  19000.0  19673.0 
+$           577  17053.0  17430.0
+US$         230  19000.0  19689.0 
 
 Mediana de precio por año y transmisión (controla el año):
  transmission  automatico   manual
 year                             
 2016                 NaN  13200.0
 2017             13176.0  12647.0
-2018             13529.0  14088.0
+2018             13471.0  14647.0
 2019             15500.0  12941.0
-2020             15588.0  15247.0
-2021             16574.0  15294.0
+2020             15694.0  15200.0
+2021             16500.0  15294.0
 2022             18235.0  15588.0
 2023             18824.0  16471.0
-2024             19324.0  17059.0
-2025             21706.0  19500.0
+2024             19294.0  17059.0
+2025             21603.0  19000.0
 2026             23206.0  20793.0
 2027             20588.0      NaN 
 
@@ -84,13 +84,13 @@ Mediana de precio por año y versión:
 year                                                 
 2016     13200.0      NaN      NaN       NaN      NaN
 2017     12882.0  13606.0      NaN       NaN      NaN
-2018     12588.0  13500.0  14088.0   15026.0      NaN
+2018     12588.0  13441.0  14647.0   14765.0      NaN
 2019         NaN  15700.0  13471.0   15500.0  12059.0
-2020         NaN  16288.0  15294.0   15323.0  15176.0
-2021         NaN  16909.0  15794.0   15853.0  15294.0
+2020         NaN  16288.0  15294.0   15411.0  15176.0
+2021         NaN  16909.0  15824.0   15824.0  15118.0
 2022         NaN  19412.0  16485.0   18600.0  15088.0
-2023         NaN  20000.0  16765.0   18765.0  15235.0
-2024         NaN  21471.0  17647.0   19412.0  16471.0
+2023         NaN  20059.0  16765.0   18765.0  15235.0
+2024         NaN  21471.0  17647.0   19383.0  16471.0
 2025         NaN  22647.0  21500.0   20088.0  18882.0
 2026     26329.0  24118.0  22794.0       NaN  20080.0
 2027         NaN      NaN      NaN       NaN  20588.0 
@@ -100,52 +100,52 @@ Mediana de precio por año y carrocería:
 year                    
 2016    13200.0      NaN
 2017    12941.0      NaN
-2018    13529.0  14147.0
-2019    15000.0  13147.0
+2018    13500.0  14147.0
+2019    14941.0  13147.0
 2020    15441.0  15000.0
-2021    16412.0  14912.0
+2021    16382.0  14912.0
 2022    17353.0  17376.0
 2023    18765.0  16529.0
-2024    18674.0  17647.0
+2024    18759.0  17647.0
 2025    21500.0      NaN
 2026    23118.0      NaN
 2027    20588.0      NaN 
 
-Km/año mediano en usados: 14,667
+Km/año mediano en usados: 15,000
 
 # Regresión lineal múltiple (USD, errores robustos HC3)
                              OLS Regression Results                            
 ==============================================================================
-Dep. Variable:              price_usd   R-squared:                       0.888
-Model:                            OLS   Adj. R-squared:                  0.886
-Method:                 Least Squares   F-statistic:                     451.4
-Date:                Mon, 23 Nov 2026   Prob (F-statistic):               0.00
-Time:                        21:18:16   Log-Likelihood:                -7042.6
-No. Observations:                 828   AIC:                         1.411e+04
-Df Residuals:                     815   BIC:                         1.417e+04
+Dep. Variable:              price_usd   R-squared:                       0.890
+Model:                            OLS   Adj. R-squared:                  0.889
+Method:                 Least Squares   F-statistic:                     449.7
+Date:                Tue, 24 Nov 2026   Prob (F-statistic):               0.00
+Time:                        01:31:35   Log-Likelihood:                -6855.5
+No. Observations:                 807   AIC:                         1.374e+04
+Df Residuals:                     794   BIC:                         1.380e+04
 Df Model:                          12                                         
 Covariance Type:                  HC3                                         
 ===========================================================================================================
                                               coef    std err          z      P>|z|      [0.025      0.975]
 -----------------------------------------------------------------------------------------------------------
-Intercept                                1.965e+04    149.659    131.327      0.000    1.94e+04    1.99e+04
-C(version, Treatment('XS'))[T.ND]        2880.6213    382.228      7.536      0.000    2131.469    3629.774
-C(version, Treatment('XS'))[T.S]         3383.0195    145.142     23.308      0.000    3098.547    3667.492
-C(version, Treatment('XS'))[T.XLS]       1627.9686    138.568     11.749      0.000    1356.381    1899.556
-C(version, Treatment('XS'))[T.XLS Pack]  2479.1299    192.236     12.896      0.000    2102.354    2855.905
-age                                      -800.2954     33.017    -24.239      0.000    -865.008    -735.583
-km10k                                    -252.0529     17.190    -14.663      0.000    -285.744    -218.361
-manual                                   -306.3593    137.535     -2.228      0.026    -575.922     -36.797
-sedan                                    -388.1744    141.710     -2.739      0.006    -665.921    -110.428
-kavak                                     685.9100    360.186      1.904      0.057     -20.042    1391.862
-listed_in_usd                            2251.4840    110.083     20.453      0.000    2035.724    2467.244
-interior                                  -46.1477     92.509     -0.499      0.618    -227.462     135.166
-is_new                                   1227.4258    182.074      6.741      0.000     870.568    1584.283
+Intercept                                1.959e+04    149.220    131.289      0.000    1.93e+04    1.99e+04
+C(version, Treatment('XS'))[T.ND]        2900.5152    383.461      7.564      0.000    2148.945    3652.086
+C(version, Treatment('XS'))[T.S]         3388.7559    145.560     23.281      0.000    3103.464    3674.048
+C(version, Treatment('XS'))[T.XLS]       1630.0491    139.577     11.678      0.000    1356.482    1903.616
+C(version, Treatment('XS'))[T.XLS Pack]  2460.9733    190.322     12.931      0.000    2087.949    2833.997
+age                                      -809.0313     33.678    -24.023      0.000    -875.038    -743.025
+km10k                                    -244.0353     17.221    -14.171      0.000    -277.788    -210.283
+manual                                   -300.2487    138.599     -2.166      0.030    -571.898     -28.600
+sedan                                    -372.8115    141.206     -2.640      0.008    -649.570     -96.053
+kavak                                     752.6638    363.410      2.071      0.038      40.393    1464.935
+listed_in_usd                            2294.0519    110.394     20.781      0.000    2077.684    2510.420
+interior                                  -19.7202     92.650     -0.213      0.831    -201.311     161.871
+is_new                                   1264.9074    181.975      6.951      0.000     908.243    1621.572
 ==============================================================================
-Omnibus:                       47.793   Durbin-Watson:                   1.838
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               65.581
-Skew:                           0.497   Prob(JB):                     5.74e-15
-Kurtosis:                       3.956   Cond. No.                         59.3
+Omnibus:                       51.459   Durbin-Watson:                   1.843
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               72.708
+Skew:                           0.524   Prob(JB):                     1.63e-16
+Kurtosis:                       4.032   Cond. No.                         59.2
 ==============================================================================
 
 Notes:
@@ -154,36 +154,36 @@ Notes:
 # Regresión log-lineal (efectos en %)
                              OLS Regression Results                            
 ==============================================================================
-Dep. Variable:              log_price   R-squared:                       0.898
-Model:                            OLS   Adj. R-squared:                  0.896
-Method:                 Least Squares   F-statistic:                     591.0
-Date:                Mon, 23 Nov 2026   Prob (F-statistic):               0.00
-Time:                        21:18:16   Log-Likelihood:                 1121.1
-No. Observations:                 828   AIC:                            -2216.
-Df Residuals:                     815   BIC:                            -2155.
+Dep. Variable:              log_price   R-squared:                       0.901
+Model:                            OLS   Adj. R-squared:                  0.900
+Method:                 Least Squares   F-statistic:                     592.2
+Date:                Tue, 24 Nov 2026   Prob (F-statistic):               0.00
+Time:                        01:31:35   Log-Likelihood:                 1104.2
+No. Observations:                 807   AIC:                            -2182.
+Df Residuals:                     794   BIC:                            -2121.
 Df Model:                          12                                         
 Covariance Type:                  HC3                                         
 ===========================================================================================================
                                               coef    std err          z      P>|z|      [0.025      0.975]
 -----------------------------------------------------------------------------------------------------------
-Intercept                                   9.8902      0.008   1268.130      0.000       9.875       9.906
-C(version, Treatment('XS'))[T.ND]           0.1150      0.019      5.953      0.000       0.077       0.153
-C(version, Treatment('XS'))[T.S]            0.1675      0.007     23.298      0.000       0.153       0.182
-C(version, Treatment('XS'))[T.XLS]          0.0872      0.007     12.032      0.000       0.073       0.101
-C(version, Treatment('XS'))[T.XLS Pack]     0.1316      0.010     13.114      0.000       0.112       0.151
-age                                        -0.0436      0.002    -24.246      0.000      -0.047      -0.040
-km10k                                      -0.0152      0.001    -16.070      0.000      -0.017      -0.013
-manual                                     -0.0268      0.007     -3.692      0.000      -0.041      -0.013
-sedan                                      -0.0264      0.008     -3.330      0.001      -0.042      -0.011
-kavak                                       0.0355      0.019      1.905      0.057      -0.001       0.072
-listed_in_usd                               0.1205      0.005     21.991      0.000       0.110       0.131
-interior                                   -0.0008      0.005     -0.156      0.876      -0.010       0.009
-is_new                                      0.0419      0.008      5.371      0.000       0.027       0.057
+Intercept                                   9.8872      0.008   1271.644      0.000       9.872       9.902
+C(version, Treatment('XS'))[T.ND]           0.1165      0.019      6.019      0.000       0.079       0.154
+C(version, Treatment('XS'))[T.S]            0.1679      0.007     23.294      0.000       0.154       0.182
+C(version, Treatment('XS'))[T.XLS]          0.0880      0.007     12.049      0.000       0.074       0.102
+C(version, Treatment('XS'))[T.XLS Pack]     0.1315      0.010     13.344      0.000       0.112       0.151
+age                                        -0.0441      0.002    -24.161      0.000      -0.048      -0.040
+km10k                                      -0.0148      0.001    -15.700      0.000      -0.017      -0.013
+manual                                     -0.0266      0.007     -3.643      0.000      -0.041      -0.012
+sedan                                      -0.0260      0.008     -3.286      0.001      -0.041      -0.010
+kavak                                       0.0385      0.019      2.054      0.040       0.002       0.075
+listed_in_usd                               0.1224      0.005     22.354      0.000       0.112       0.133
+interior                                    0.0003      0.005      0.067      0.946      -0.009       0.010
+is_new                                      0.0437      0.008      5.587      0.000       0.028       0.059
 ==============================================================================
-Omnibus:                       10.605   Durbin-Watson:                   1.876
-Prob(Omnibus):                  0.005   Jarque-Bera (JB):               12.230
-Skew:                           0.191   Prob(JB):                      0.00221
-Kurtosis:                       3.457   Cond. No.                         59.3
+Omnibus:                       12.394   Durbin-Watson:                   1.876
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.601
+Skew:                           0.240   Prob(JB):                      0.00111
+Kurtosis:                       3.418   Cond. No.                         59.2
 ==============================================================================
 
 Notes:
@@ -191,63 +191,63 @@ Notes:
 
 Tabla resumen de coeficientes:
                     variable     usd  ic95_low  ic95_high  p_value  pct_log_model
-   Versión sin dato (vs XS) 2880.62   2131.47    3629.77     0.00          12.19
-                  S (vs XS) 3383.02   3098.55    3667.49     0.00          18.23
-                XLS (vs XS) 1627.97   1356.38    1899.56     0.00           9.11
-           XLS Pack (vs XS) 2479.13   2102.35    2855.91     0.00          14.06
-       +1 año de antigüedad -800.30   -865.01    -735.58     0.00          -4.27
-                 +10.000 km -252.05   -285.74    -218.36     0.00          -1.51
-     Manual (vs automático) -306.36   -575.92     -36.80     0.03          -2.64
-       Sedán (vs hatchback) -388.17   -665.92    -110.43     0.01          -2.61
-         Publicado en Kavak  685.91    -20.04    1391.86     0.06           3.61
-Publicado en USD (vs pesos) 2251.48   2035.72    2467.24     0.00          12.80
-         Interior (vs AMBA)  -46.15   -227.46     135.17     0.62          -0.08
-                       0 km 1227.43    870.57    1584.28     0.00           4.28 
+   Versión sin dato (vs XS) 2900.52   2148.94    3652.09     0.00          12.35
+                  S (vs XS) 3388.76   3103.46    3674.05     0.00          18.28
+                XLS (vs XS) 1630.05   1356.48    1903.62     0.00           9.20
+           XLS Pack (vs XS) 2460.97   2087.95    2834.00     0.00          14.05
+       +1 año de antigüedad -809.03   -875.04    -743.02     0.00          -4.31
+                 +10.000 km -244.04   -277.79    -210.28     0.00          -1.47
+     Manual (vs automático) -300.25   -571.90     -28.60     0.03          -2.63
+       Sedán (vs hatchback) -372.81   -649.57     -96.05     0.01          -2.56
+         Publicado en Kavak  752.66     40.39    1464.93     0.04           3.92
+Publicado en USD (vs pesos) 2294.05   2077.68    2510.42     0.00          13.02
+         Interior (vs AMBA)  -19.72   -201.31     161.87     0.83           0.03
+                       0 km 1264.91    908.24    1621.57     0.00           4.46 
 
-R² lineal = 0.888 | R² log = 0.898
+R² lineal = 0.890 | R² log = 0.901
 
 # Validación cruzada 5-fold (MAE en USD)
- OLS lineal (USD)                       950.0
-OLS log + curvatura + interacciones    860.0
-Gradient Boosting (monótono)           915.0 
+ OLS lineal (USD)                       930.0
+OLS log + curvatura + interacciones    851.0
+Gradient Boosting (monótono)           902.0 
 
 # Modelo de proyección elegido: OLS log con curvatura en edad/km e interacciones
                              OLS Regression Results                            
 ==============================================================================
-Dep. Variable:              log_price   R-squared:                       0.905
-Model:                            OLS   Adj. R-squared:                  0.903
-Method:                 Least Squares   F-statistic:                     510.3
-Date:                Mon, 23 Nov 2026   Prob (F-statistic):               0.00
-Time:                        21:18:19   Log-Likelihood:                 1151.2
-No. Observations:                 828   AIC:                            -2268.
-Df Residuals:                     811   BIC:                            -2188.
+Dep. Variable:              log_price   R-squared:                       0.908
+Model:                            OLS   Adj. R-squared:                  0.907
+Method:                 Least Squares   F-statistic:                     509.6
+Date:                Tue, 24 Nov 2026   Prob (F-statistic):               0.00
+Time:                        01:31:38   Log-Likelihood:                 1134.1
+No. Observations:                 807   AIC:                            -2234.
+Df Residuals:                     790   BIC:                            -2154.
 Df Model:                          16                                         
 Covariance Type:                  HC3                                         
 ===========================================================================================================
                                               coef    std err          z      P>|z|      [0.025      0.975]
 -----------------------------------------------------------------------------------------------------------
-Intercept                                   9.8880      0.009   1042.108      0.000       9.869       9.907
-C(version, Treatment('XS'))[T.ND]           0.1556      0.021      7.249      0.000       0.114       0.198
-C(version, Treatment('XS'))[T.S]            0.1646      0.007     23.113      0.000       0.151       0.179
-C(version, Treatment('XS'))[T.XLS]          0.0786      0.007     10.925      0.000       0.064       0.093
-C(version, Treatment('XS'))[T.XLS Pack]     0.1257      0.010     12.603      0.000       0.106       0.145
-age                                        -0.0198      0.006     -3.533      0.000      -0.031      -0.009
-I(age ** 2)                                -0.0029      0.001     -4.604      0.000      -0.004      -0.002
-km10k                                      -0.0242      0.002    -10.822      0.000      -0.029      -0.020
-I(km10k ** 2)                               0.0005      0.000      4.335      0.000       0.000       0.001
-manual                                     -0.0816      0.013     -6.060      0.000      -0.108      -0.055
-manual:age                                  0.0122      0.003      4.512      0.000       0.007       0.018
-sedan                                      -0.0454      0.018     -2.550      0.011      -0.080      -0.011
-sedan:age                                   0.0040      0.004      1.055      0.291      -0.003       0.011
-kavak                                       0.0317      0.017      1.823      0.068      -0.002       0.066
-listed_in_usd                               0.1182      0.005     22.542      0.000       0.108       0.128
-interior                                    0.0010      0.005      0.205      0.838      -0.008       0.010
-is_new                                      0.0450      0.010      4.476      0.000       0.025       0.065
+Intercept                                   9.8832      0.010   1035.728      0.000       9.865       9.902
+C(version, Treatment('XS'))[T.ND]           0.1607      0.021      7.477      0.000       0.119       0.203
+C(version, Treatment('XS'))[T.S]            0.1656      0.007     23.246      0.000       0.152       0.180
+C(version, Treatment('XS'))[T.XLS]          0.0796      0.007     11.022      0.000       0.065       0.094
+C(version, Treatment('XS'))[T.XLS Pack]     0.1257      0.010     12.907      0.000       0.107       0.145
+age                                        -0.0195      0.006     -3.468      0.001      -0.031      -0.008
+I(age ** 2)                                -0.0031      0.001     -4.758      0.000      -0.004      -0.002
+km10k                                      -0.0233      0.002    -10.300      0.000      -0.028      -0.019
+I(km10k ** 2)                               0.0005      0.000      4.001      0.000       0.000       0.001
+manual                                     -0.0816      0.014     -5.919      0.000      -0.109      -0.055
+manual:age                                  0.0123      0.003      4.427      0.000       0.007       0.018
+sedan                                      -0.0465      0.018     -2.598      0.009      -0.082      -0.011
+sedan:age                                   0.0044      0.004      1.136      0.256      -0.003       0.012
+kavak                                       0.0346      0.018      1.969      0.049       0.000       0.069
+listed_in_usd                               0.1197      0.005     22.858      0.000       0.109       0.130
+interior                                    0.0015      0.005      0.327      0.744      -0.008       0.011
+is_new                                      0.0484      0.010      4.797      0.000       0.029       0.068
 ==============================================================================
-Omnibus:                       13.886   Durbin-Watson:                   1.905
-Prob(Omnibus):                  0.001   Jarque-Bera (JB):               17.022
-Skew:                           0.215   Prob(JB):                     0.000201
-Kurtosis:                       3.556   Cond. No.                         644.
+Omnibus:                       15.520   Durbin-Watson:                   1.909
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.393
+Skew:                           0.273   Prob(JB):                     0.000167
+Kurtosis:                       3.468   Cond. No.                         647.
 ==============================================================================
 
 Notes:
@@ -256,96 +256,97 @@ Notes:
 
 # Proyección por segmento (km típico, USD constantes, precio de venta particular)
   year version transmission      body      km  precio_hoy  precio_4a  perdida_usd  retencion_pct
- 2018      XS       manual hatchback 83000.0     12043.0     8699.0       3344.0           72.0
- 2018      XS   automatico hatchback 83000.0     11849.0     8150.0       3699.0           69.0
- 2018     XLS       manual hatchback 83000.0     13028.0     9410.0       3618.0           72.0
- 2018     XLS   automatico hatchback 83000.0     12817.0     8816.0       4001.0           69.0
- 2018     XLS   automatico     sedan 83000.0     12649.0     8841.0       3808.0           70.0
- 2018     XLS       manual     sedan 83000.0     12856.0     9436.0       3420.0           73.0
- 2019      XS       manual hatchback 92500.0     12506.0     9293.0       3212.0           74.0
- 2019      XS   automatico hatchback 92500.0     12455.0     8814.0       3641.0           71.0
- 2019     XLS       manual hatchback 92500.0     13528.0    10053.0       3475.0           74.0
- 2019     XLS   automatico hatchback 92500.0     13473.0     9534.0       3939.0           71.0
- 2019     XLS   automatico     sedan 92500.0     13242.0     9523.0       3720.0           72.0
- 2019     XLS       manual     sedan 92500.0     13296.0    10041.0       3255.0           76.0
- 2020      XS       manual hatchback 80000.0     13335.0    10079.0       3256.0           76.0
- 2020      XS   automatico hatchback 80000.0     13445.0     9677.0       3768.0           72.0
- 2020     XLS       manual hatchback 80000.0     14425.0    10903.0       3522.0           76.0
- 2020     XLS   automatico hatchback 80000.0     14544.0    10468.0       4076.0           72.0
- 2020     XLS   automatico     sedan 80000.0     14238.0    10413.0       3824.0           73.0
- 2020     XLS       manual     sedan 80000.0     14122.0    10846.0       3276.0           77.0
- 2021      XS       manual hatchback 67000.0     14173.0    10892.0       3281.0           77.0
- 2021      XS   automatico hatchback 67000.0     14466.0    10586.0       3879.0           73.0
- 2021     XLS       manual hatchback 67000.0     15332.0    11783.0       3549.0           77.0
- 2021     XLS   automatico hatchback 67000.0     15648.0    11452.0       4196.0           73.0
- 2021     XLS   automatico     sedan 67000.0     15257.0    11346.0       3911.0           74.0
- 2021     XLS       manual     sedan 67000.0     14949.0    11674.0       3275.0           78.0
- 2022      XS       manual hatchback 68050.0     14637.0    11522.0       3115.0           79.0
- 2022      XS   automatico hatchback 68050.0     15123.0    11336.0       3787.0           75.0
- 2022     XLS       manual hatchback 68050.0     15834.0    12464.0       3370.0           79.0
- 2022     XLS   automatico hatchback 68050.0     16359.0    12263.0       4096.0           75.0
- 2022     XLS   automatico     sedan 68050.0     15887.0    12102.0       3785.0           76.0
- 2022     XLS       manual     sedan 68050.0     15376.0    12300.0       3076.0           80.0
- 2023      XS       manual hatchback 45000.0     15695.0    12497.0       3199.0           80.0
- 2023      XS   automatico hatchback 45000.0     16416.0    12446.0       3969.0           76.0
- 2023     XLS       manual hatchback 45000.0     16978.0    13518.0       3460.0           80.0
- 2023     XLS   automatico hatchback 45000.0     17757.0    13464.0       4294.0           76.0
- 2023     XLS   automatico     sedan 45000.0     17175.0    13233.0       3942.0           77.0
- 2023     XLS       manual     sedan 45000.0     16422.0    13287.0       3135.0           81.0
- 2024      XS       manual hatchback 39000.0     16239.0    13195.0       3044.0           81.0
- 2024      XS   automatico hatchback 39000.0     17193.0    13304.0       3890.0           77.0
- 2024     XLS       manual hatchback 39000.0     17566.0    14273.0       3293.0           81.0
- 2024     XLS   automatico hatchback 39000.0     18598.0    14391.0       4208.0           77.0
- 2024     XLS   automatico     sedan 39000.0     17917.0    14088.0       3829.0           79.0
- 2024     XLS       manual     sedan 39000.0     16922.0    13973.0       2949.0           83.0
- 2025      XS       manual hatchback 16750.0     17304.0    14228.0       3077.0           82.0
- 2025      XS   automatico hatchback 16750.0     18547.0    14521.0       4025.0           78.0
- 2025     XLS       manual hatchback 16750.0     18719.0    15391.0       3328.0           82.0
- 2025     XLS   automatico hatchback 16750.0     20063.0    15708.0       4354.0           78.0
- 2025     XLS   automatico     sedan 16750.0     19250.0    15316.0       3934.0           80.0
- 2025     XLS       manual     sedan 16750.0     17960.0    15006.0       2954.0           84.0
- 2026      XS       manual hatchback  5000.0     17968.0    15031.0       2936.0           84.0
- 2026      XS   automatico hatchback  5000.0     19495.0    15530.0       3965.0           80.0
- 2026     XLS       manual hatchback  5000.0     19436.0    16260.0       3176.0           84.0
- 2026     XLS   automatico hatchback  5000.0     21088.0    16799.0       4289.0           80.0
- 2026     XLS   automatico     sedan  5000.0     20152.0    16314.0       3838.0           81.0
- 2026     XLS       manual     sedan  5000.0     18574.0    15790.0       2784.0           85.0 
+ 2018      XS       manual hatchback 83808.0     11971.0     8584.0       3387.0           72.0
+ 2018      XS   automatico hatchback 83808.0     11774.0     8038.0       3736.0           68.0
+ 2018     XLS       manual hatchback 83808.0     12964.0     9296.0       3668.0           72.0
+ 2018     XLS   automatico hatchback 83808.0     12750.0     8704.0       4046.0           68.0
+ 2018     XLS   automatico     sedan 83808.0     12603.0     8755.0       3848.0           69.0
+ 2018     XLS       manual     sedan 83808.0     12814.0     9351.0       3464.0           73.0
+ 2019      XS       manual hatchback 92500.0     12467.0     9200.0       3267.0           74.0
+ 2019      XS   automatico hatchback 92500.0     12413.0     8721.0       3692.0           70.0
+ 2019     XLS       manual hatchback 92500.0     13501.0     9963.0       3538.0           74.0
+ 2019     XLS   automatico hatchback 92500.0     13442.0     9444.0       3998.0           70.0
+ 2019     XLS   automatico     sedan 92500.0     13229.0     9458.0       3772.0           71.0
+ 2019     XLS       manual     sedan 92500.0     13287.0     9978.0       3310.0           75.0
+ 2020      XS       manual hatchback 82000.0     13266.0     9981.0       3286.0           75.0
+ 2020      XS   automatico hatchback 82000.0     13372.0     9577.0       3794.0           72.0
+ 2020     XLS       manual hatchback 82000.0     14366.0    10808.0       3558.0           75.0
+ 2020     XLS   automatico hatchback 82000.0     14480.0    10371.0       4109.0           72.0
+ 2020     XLS   automatico     sedan 82000.0     14189.0    10342.0       3847.0           73.0
+ 2020     XLS       manual     sedan 82000.0     14077.0    10777.0       3300.0           77.0
+ 2021      XS       manual hatchback 68000.0     14126.0    10816.0       3310.0           77.0
+ 2021      XS   automatico hatchback 68000.0     14414.0    10508.0       3907.0           73.0
+ 2021     XLS       manual hatchback 68000.0     15297.0    11713.0       3584.0           77.0
+ 2021     XLS   automatico hatchback 68000.0     15609.0    11378.0       4231.0           73.0
+ 2021     XLS   automatico     sedan 68000.0     15229.0    11297.0       3932.0           74.0
+ 2021     XLS       manual     sedan 68000.0     14924.0    11628.0       3296.0           78.0
+ 2022      XS       manual hatchback 68100.0     14623.0    11474.0       3149.0           78.0
+ 2022      XS   automatico hatchback 68100.0     15106.0    11285.0       3821.0           75.0
+ 2022     XLS       manual hatchback 68100.0     15835.0    12425.0       3410.0           78.0
+ 2022     XLS   automatico hatchback 68100.0     16358.0    12220.0       4138.0           75.0
+ 2022     XLS   automatico     sedan 68100.0     15890.0    12079.0       3811.0           76.0
+ 2022     XLS       manual     sedan 68100.0     15382.0    12282.0       3100.0           80.0
+ 2023      XS       manual hatchback 45000.0     15670.0    12459.0       3212.0           80.0
+ 2023      XS   automatico hatchback 45000.0     16388.0    12404.0       3984.0           76.0
+ 2023     XLS       manual hatchback 45000.0     16969.0    13491.0       3478.0           80.0
+ 2023     XLS   automatico hatchback 45000.0     17746.0    13433.0       4314.0           76.0
+ 2023     XLS   automatico     sedan 45000.0     17164.0    13220.0       3943.0           77.0
+ 2023     XLS       manual     sedan 45000.0     16412.0    13278.0       3134.0           81.0
+ 2024      XS       manual hatchback 39167.0     16206.0    13166.0       3040.0           81.0
+ 2024      XS   automatico hatchback 39167.0     17158.0    13271.0       3887.0           77.0
+ 2024     XLS       manual hatchback 39167.0     17549.0    14257.0       3292.0           81.0
+ 2024     XLS   automatico hatchback 39167.0     18580.0    14370.0       4209.0           77.0
+ 2024     XLS   automatico     sedan 39167.0     17892.0    14082.0       3810.0           79.0
+ 2024     XLS       manual     sedan 39167.0     16899.0    13971.0       2929.0           83.0
+ 2025      XS       manual hatchback 17000.0     17238.0    14196.0       3042.0           82.0
+ 2025      XS   automatico hatchback 17000.0     18476.0    14486.0       3990.0           78.0
+ 2025     XLS       manual hatchback 17000.0     18667.0    15373.0       3294.0           82.0
+ 2025     XLS   automatico hatchback 17000.0     20008.0    15687.0       4321.0           78.0
+ 2025     XLS   automatico     sedan 17000.0     19183.0    15305.0       3878.0           80.0
+ 2025     XLS       manual     sedan 17000.0     17897.0    14999.0       2899.0           84.0
+ 2026      XS       manual hatchback  5000.0     17887.0    15007.0       2880.0           84.0
+ 2026      XS   automatico hatchback  5000.0     19408.0    15502.0       3906.0           80.0
+ 2026     XLS       manual hatchback  5000.0     19369.0    16250.0       3119.0           84.0
+ 2026     XLS   automatico hatchback  5000.0     21017.0    16787.0       4230.0           80.0
+ 2026     XLS   automatico     sedan  5000.0     20063.0    16307.0       3756.0           81.0
+ 2026     XLS       manual     sedan  5000.0     18490.0    15786.0       2704.0           85.0 
 
 # Ranking Kavak (menor pérdida esperada en 4 años primero)
  source  year  version transmission      body    km  price_usd  valor_reventa_hoy  descuento_vs_mercado_pct  reventa_4a  reventa_4a_p10  reventa_4a_p90  perdida_4a_usd  perdida_anual_usd  retencion_pct
- kavak  2024      XLS   automatico     sedan 59855    15653.0            17226.0                       9.0     13694.0         12676.0         14793.0          1959.0              490.0           87.0
- kavak  2021      XLS       manual     sedan 48053    14353.0            15466.0                       7.0     11959.0         11070.0         12919.0          2394.0              598.0           83.0
- kavak  2024       XS       manual hatchback 20710    16618.0            16874.0                       2.0     13580.0         12571.0         14671.0          3037.0              759.0           82.0
- kavak  2021      XLS   automatico     sedan 43201    15376.0            15934.0                       3.0     11703.0         10833.0         12642.0          3674.0              918.0           76.0
- kavak  2018      XLS       manual hatchback 56113    13447.0            13624.0                       1.0      9703.0          8982.0         10482.0          3744.0              936.0           72.0
- kavak  2023        S   automatico hatchback 24034    19424.0            20202.0                       4.0     15150.0         14024.0         16366.0          4274.0             1068.0           78.0
- kavak  2021       XS       manual hatchback 26000    15959.0            15332.0                      -4.0     11532.0         10675.0         12458.0          4426.0             1107.0           72.0
- kavak  2025       XS   automatico hatchback 32899    18865.0            17913.0                      -5.0     14144.0         13093.0         15280.0          4720.0             1180.0           75.0
- kavak  2025        S   automatico hatchback  5000    22629.0            22466.0                      -1.0     17482.0         16183.0         18886.0          5147.0             1287.0           77.0
- kavak  2018        S   automatico hatchback 68000    14947.0            14309.0                      -4.0      9765.0          9039.0         10549.0          5182.0             1296.0           65.0
- kavak  2020      XLS       manual     sedan 43670    16912.0            15048.0                     -12.0     11340.0         10497.0         12250.0          5572.0             1393.0           67.0
- kavak  2021 XLS Pack   automatico hatchback 42894    17982.0            17140.0                      -5.0     12386.0         11466.0         13380.0          5596.0             1399.0           69.0
- kavak  2024 XLS Pack   automatico hatchback  7800    21488.0            20860.0                      -3.0     15879.0         14699.0         17154.0          5609.0             1402.0           74.0
- kavak  2019 XLS Pack   automatico hatchback 31622    16682.0            15707.0                      -6.0     10767.0          9967.0         11631.0          5916.0             1479.0           65.0
- kavak  2018 XLS Pack   automatico hatchback 83000    15288.0            13435.0                     -14.0      9241.0          8554.0          9983.0          6047.0             1512.0           60.0
- kavak  2022        S   automatico hatchback 31520    20329.0            19098.0                      -6.0     14044.0         13001.0         15172.0          6285.0             1571.0           69.0
- kavak  2025      XLS   automatico hatchback  3867    22576.0            20669.0                      -9.0     16074.0         14880.0         17364.0          6502.0             1626.0           71.0
- kavak  2026       ND   automatico hatchback   850    26329.0            23003.0                     -14.0     18285.0         16927.0         19753.0          8044.0             2011.0           69.0 
+ kavak  2020 XLS Pack   automatico     sedan 43891    13076.0            15847.0                      17.0     11337.0         10507.0         12233.0          1739.0              435.0           87.0
+ kavak  2024      XLS   automatico     sedan 59855    15653.0            17228.0                       9.0     13697.0         12694.0         14780.0          1956.0              489.0           88.0
+ kavak  2021      XLS       manual     sedan 48053    14353.0            15452.0                       7.0     11922.0         11049.0         12865.0          2431.0              608.0           83.0
+ kavak  2024       XS       manual hatchback 20710    16618.0            16824.0                       1.0     13545.0         12553.0         14616.0          3073.0              768.0           82.0
+ kavak  2021      XLS   automatico     sedan 43201    15376.0            15910.0                       3.0     11660.0         10806.0         12582.0          3716.0              929.0           76.0
+ kavak  2018      XLS       manual hatchback 56113    13447.0            13558.0                       1.0      9591.0          8889.0         10350.0          3856.0              964.0           71.0
+ kavak  2023        S   automatico hatchback 24034    19424.0            20159.0                       4.0     15104.0         13997.0         16297.0          4320.0             1080.0           78.0
+ kavak  2021       XS       manual hatchback 26000    15959.0            15269.0                      -5.0     11454.0         10615.0         12359.0          4505.0             1126.0           72.0
+ kavak  2025       XS   automatico hatchback 32899    18865.0            17876.0                      -6.0     14125.0         13090.0         15241.0          4740.0             1185.0           75.0
+ kavak  2025        S   automatico hatchback  5000    22629.0            22392.0                      -1.0     17454.0         16176.0         18834.0          5175.0             1294.0           77.0
+ kavak  2018        S   automatico hatchback 68000    14947.0            14241.0                      -5.0      9647.0          8941.0         10410.0          5300.0             1325.0           65.0
+ kavak  2020      XLS       manual     sedan 43670    16912.0            15020.0                     -13.0     11286.0         10459.0         12178.0          5626.0             1407.0           67.0
+ kavak  2024 XLS Pack   automatico hatchback  7800    21488.0            20776.0                      -3.0     15825.0         14665.0         17075.0          5664.0             1416.0           74.0
+ kavak  2021 XLS Pack   automatico hatchback 42894    17982.0            17087.0                      -5.0     12304.0         11402.0         13276.0          5679.0             1420.0           68.0
+ kavak  2019 XLS Pack   automatico hatchback 31622    16682.0            15610.0                      -7.0     10646.0          9866.0         11487.0          6037.0             1509.0           64.0
+ kavak  2018 XLS Pack   automatico hatchback 83000    15288.0            13367.0                     -14.0      9122.0          8454.0          9843.0          6167.0             1542.0           60.0
+ kavak  2022        S   automatico hatchback 31520    20329.0            19057.0                      -7.0     13984.0         12960.0         15089.0          6345.0             1586.0           69.0
+ kavak  2025      XLS   automatico hatchback  3867    22576.0            20601.0                     -10.0     16049.0         14873.0         17317.0          6528.0             1632.0           71.0
+ kavak  2026       ND   automatico hatchback   850    26329.0            23011.0                     -14.0     18343.0         16999.0         19792.0          7987.0             1997.0           70.0 
 
 # Top 15 XS/XLS hatchback (Kavak + ML) por menor pérdida en 4 años
        source  year version transmission      body     km  price_usd  valor_reventa_hoy  descuento_vs_mercado_pct  reventa_4a  reventa_4a_p10  reventa_4a_p90  perdida_4a_usd  perdida_anual_usd  retencion_pct                                                                                                url
-mercadolibre  2024     XLS       manual hatchback  90000    14118.0            16091.0                      12.0     13428.0         12430.0         14506.0           689.0              172.0           95.0                      https://auto.mercadolibre.com.ar/MLA-2255101301-toyota-yaris-15-107cv-xls-_JM
-mercadolibre  2019      XS       manual hatchback 123900    10000.0            12027.0                      17.0      9085.0          8410.0          9815.0           915.0              229.0           91.0                       https://auto.mercadolibre.com.ar/MLA-4155657802-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2026      XS   automatico hatchback  17000    16412.0            18963.0                      13.0     15202.0         14072.0         16422.0          1210.0              302.0           93.0                   https://auto.mercadolibre.com.ar/MLA-2240522343-toyota-yaris-15-107cv-xs-cvt-_JM
-mercadolibre  2024     XLS   automatico hatchback  59855    15653.0            17882.0                      12.0     13988.0         12949.0         15111.0          1665.0              416.0           89.0                        https://auto.mercadolibre.com.ar/MLA-2243178963-toyota-yaris-15-xls-cvt-_JM
-mercadolibre  2021      XS       manual hatchback 126000    12059.0            13072.0                       8.0     10361.0          9591.0         11193.0          1698.0              424.0           86.0                       https://auto.mercadolibre.com.ar/MLA-4142862358-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2024     XLS   automatico hatchback  39500    16176.0            18580.0                      13.0     14380.0         13312.0         15535.0          1796.0              449.0           89.0 https://auto.mercadolibre.com.ar/MLA-2262392523-toyota-yaris-4-puertas-15-4-p-xls-cvt-l22-2024-_JM
-mercadolibre  2024      XS       manual hatchback  42000    15000.0            16143.0                       7.0     13137.0         12161.0         14192.0          1863.0              466.0           88.0                       https://auto.mercadolibre.com.ar/MLA-4170525438-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2024     XLS       manual hatchback  38000    16176.0            17601.0                       8.0     14295.0         13232.0         15442.0          1882.0              470.0           88.0                      https://auto.mercadolibre.com.ar/MLA-4226028406-toyota-yaris-15-107cv-xls-_JM
-mercadolibre  2024      XS       manual hatchback  19000    15588.0            16938.0                       8.0     13620.0         12608.0         14713.0          1969.0              492.0           87.0                       https://auto.mercadolibre.com.ar/MLA-2239155129-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2019     XLS       manual hatchback 160000    11676.0            12605.0                       7.0      9704.0          8983.0         10483.0          1973.0              493.0           83.0                      https://auto.mercadolibre.com.ar/MLA-2298602311-toyota-yaris-15-107cv-xls-_JM
-mercadolibre  2021     XLS       manual hatchback  64000    13824.0            15411.0                      10.0     11825.0         10946.0         12774.0          1999.0              500.0           86.0                  https://auto.mercadolibre.com.ar/MLA-2195548649-toyota-yaris-15-107cv-xls-5-p-_JM
-mercadolibre  2024      XS       manual hatchback  62499    14824.0            15541.0                       5.0     12784.0         11834.0         13810.0          2040.0              510.0           86.0                       https://auto.mercadolibre.com.ar/MLA-2217344627-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2023     XLS       manual hatchback  29500    15882.0            17517.0                       9.0     13835.0         12807.0         14945.0          2048.0              512.0           87.0                      https://auto.mercadolibre.com.ar/MLA-4205623700-toyota-yaris-15-107cv-xls-_JM
-mercadolibre  2023      XS       manual hatchback  42000    14647.0            15787.0                       7.0     12550.0         11618.0         13558.0          2097.0              524.0           86.0                       https://auto.mercadolibre.com.ar/MLA-4170087714-toyota-yaris-15-107cv-xs-_JM
-mercadolibre  2024      XS       manual hatchback  87439    14544.0            14931.0                       3.0     12444.0         11519.0         13442.0          2101.0              525.0           86.0                       https://auto.mercadolibre.com.ar/MLA-4128357712-toyota-yaris-15-107cv-xs-_JM 
+mercadolibre  2024     XLS       manual hatchback  90000    14118.0            16118.0                      12.0     13423.0         12440.0         14484.0           694.0              174.0           95.0                      https://auto.mercadolibre.com.ar/MLA-2255101301-toyota-yaris-15-107cv-xls-_JM
+mercadolibre  2019      XS       manual hatchback 123900    10000.0            11995.0                      17.0      8988.0          8330.0          9699.0          1012.0              253.0           90.0                       https://auto.mercadolibre.com.ar/MLA-4155657802-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2026      XS   automatico hatchback  17000    16412.0            18898.0                      13.0     15184.0         14071.0         16384.0          1228.0              307.0           93.0                   https://auto.mercadolibre.com.ar/MLA-2240522343-toyota-yaris-15-107cv-xs-cvt-_JM
+mercadolibre  2021      XS       manual hatchback 126000    12059.0            13067.0                       8.0     10293.0          9539.0         11106.0          1766.0              442.0           85.0                       https://auto.mercadolibre.com.ar/MLA-4142862358-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2024     XLS   automatico hatchback  39500    16176.0            18568.0                      13.0     14364.0         13311.0         15499.0          1813.0              453.0           89.0 https://auto.mercadolibre.com.ar/MLA-2262392523-toyota-yaris-4-puertas-15-4-p-xls-cvt-l22-2024-_JM
+mercadolibre  2024      XS       manual hatchback  42000    15000.0            16118.0                       7.0     13113.0         12152.0         14149.0          1887.0              472.0           87.0                       https://auto.mercadolibre.com.ar/MLA-4170525438-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2024     XLS       manual hatchback  38000    16176.0            17589.0                       8.0     14281.0         13235.0         15410.0          1895.0              474.0           88.0                      https://auto.mercadolibre.com.ar/MLA-4226028406-toyota-yaris-15-107cv-xls-_JM
+mercadolibre  2024      XS       manual hatchback  19000    15588.0            16885.0                       8.0     13583.0         12588.0         14657.0          2005.0              501.0           87.0                       https://auto.mercadolibre.com.ar/MLA-2239155129-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2021     XLS       manual hatchback  64000    13824.0            15399.0                      10.0     11768.0         10906.0         12698.0          2056.0              514.0           85.0                  https://auto.mercadolibre.com.ar/MLA-2195548649-toyota-yaris-15-107cv-xls-5-p-_JM
+mercadolibre  2024      XS       manual hatchback  62499    14824.0            15535.0                       5.0     12765.0         11830.0         13774.0          2059.0              515.0           86.0                       https://auto.mercadolibre.com.ar/MLA-2217344627-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2023     XLS       manual hatchback  29500    15882.0            17490.0                       9.0     13801.0         12790.0         14892.0          2081.0              520.0           87.0                      https://auto.mercadolibre.com.ar/MLA-4205623700-toyota-yaris-15-107cv-xls-_JM
+mercadolibre  2019     XLS       manual hatchback 160000    11676.0            12580.0                       7.0      9595.0          8892.0         10353.0          2082.0              520.0           82.0                      https://auto.mercadolibre.com.ar/MLA-2298602311-toyota-yaris-15-107cv-xls-_JM
+mercadolibre  2024      XS       manual hatchback  87439    14544.0            14939.0                       3.0     12426.0         11516.0         13408.0          2118.0              530.0           85.0                       https://auto.mercadolibre.com.ar/MLA-4128357712-toyota-yaris-15-107cv-xs-_JM
+mercadolibre  2024      XS       manual hatchback  56000    15000.0            15710.0                       5.0     12868.0         11926.0         13885.0          2132.0              533.0           86.0           https://auto.mercadolibre.com.ar/MLA-2289254191-toyota-yaris-xs-15-mt6-56000km-2024--_JM
+mercadolibre  2023      XS       manual hatchback  42000    14647.0            15759.0                       7.0     12511.0         11595.0         13500.0          2136.0              534.0           85.0                       https://auto.mercadolibre.com.ar/MLA-4170087714-toyota-yaris-15-107cv-xs-_JM 

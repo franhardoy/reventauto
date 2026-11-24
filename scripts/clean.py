@@ -22,7 +22,7 @@ def version(s):
     return "ND"
 df["version"] = t.map(version)
 df["body"] = np.where(t.str.contains("sedan|sedán|4p|4 p"), "sedan", "hatchback")
-auto_title = t.str.contains(r"\bcvt\b|\bat\b|autom")
+auto_title = t.str.contains(r"cvt|\bat\b|autom")
 manual_title = t.str.contains(r"6m|m/t|\bmt\b|manual")
 df["transmission"] = np.where(df.transmission_raw.fillna("").str.contains("Autom"), "automatico",
                      np.where(df.transmission_raw.fillna("").str.contains("Manual"), "manual",
@@ -56,6 +56,10 @@ med = df.groupby("year").price_usd.transform("median")
 mad = df.groupby("year").price_usd.transform(lambda s: (s - s.median()).abs().median())
 drop((df.price_usd - med).abs() > 4 * 1.4826 * mad.clip(lower=500), "outlier de precio dentro de su año")
 df = df.drop_duplicates(subset=["source", "year", "km", "price_usd", "version"])
+# autos de Kavak re-publicados en ML (mismo año y km): se queda la versión de Kavak
+kv_keys = set(zip(df[df.source == "kavak"].year, df[df.source == "kavak"].km))
+kavak_dup = (df.source == "mercadolibre") & pd.Series([(y, k) in kv_keys for y, k in zip(df.year, df.km)], index=df.index) & (df.km > 1000)
+reasons["duplicado de Kavak en ML"] = int(kavak_dup.sum()); df = df[~kavak_dup]
 print(f"{n0} -> {len(df)} filas"); [print(f"  - {k}: {v}") for k, v in reasons.items()]
 cols = ["source", "id", "title", "year", "age", "version", "body", "transmission", "km", "is_new",
         "currency", "price", "listed_in_usd", "price_usd", "location", "region", "url", "scraped"]

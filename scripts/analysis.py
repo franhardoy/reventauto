@@ -174,7 +174,9 @@ axs[1].text(.98, .03, "XS y XLS manual retienen casi igual (líneas superpuestas
 fig.tight_layout(); fig.savefig(O / "05_perdida_valor_4a_por_segmento.png", dpi=150); plt.close()
 
 # Ranking de publicaciones concretas (Kavak + XS/XLS de ML)
-cand = df[df.version.isin(["XS", "XLS", "XLS Pack"]) | (df.kavak == 1)].copy()
+# los outliers se excluyen del entrenamiento pero las publicaciones de Kavak se siguen evaluando (pueden ser oportunidades reales)
+cand = pd.concat([df, SUSP[SUSP.kavak == 1]])
+cand = cand[cand.version.isin(["XS", "XLS", "XLS Pack"]) | (cand.kavak == 1)].copy()
 cand["precio_justo_hoy"] = predict(cand)                      # con sus propias características de canal
 cand["valor_reventa_hoy"], cand["reventa_4a"] = project(cand)
 cand["reventa_4a_p10"] = cand.reventa_4a * np.exp(-1.2816 * resid_sd)
