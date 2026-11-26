@@ -1,106 +1,99 @@
 source,id,title,currency,price,price_financed,year,km,location,url,scraped,transmission_raw
-kavak,567015,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,25990000,25990000,2018,83000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2018,2026-11-23,Automático
-kavak,566089,Toyota Yaris 1.5 XS CVT hatchback,$,32070000,31392000,2025,32899,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs_cvt-hatchback-2025,2026-11-23,Automático
-kavak,565764,Toyota Yaris 1.5 S CVT hatchback,$,33020000,32312000,2023,24034,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_cvt-hatchback-2023,2026-11-23,Automático
-kavak,563921,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,30570000,29932000,2021,42894,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2021,2026-11-23,Automático
-kavak,563236,Toyota Yaris 1.5 XS hatchback,$,28250000,27682000,2024,20710,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs-hatchback-2024,2026-11-23,Manual
-kavak,549376,Toyota Yaris 1.5 XLS CVT sedan,$,26610000,25292000,2024,59855,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_cvt-sedan-2024,2026-11-23,Automático
-kavak,546678,Toyota Yaris 1.5 XLS CVT sedan,$,26140000,24852000,2021,43201,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_cvt-sedan-2021,2026-11-23,Automático
-kavak,567520,Toyota Yaris 1.5 XS hatchback,$,27130000,27130000,2021,26000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs-hatchback-2021,2026-11-23,Manual
-kavak,566373,Toyota Yaris 1.5 XLS sedan,$,28750000,28750000,2020,43670,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls-sedan-2020,2026-11-23,Manual
-kavak,567774,Toyota Yaris 1.5 S CVT hatchback,$,38470000,38470000,2025,5000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_cvt-hatchback-2025,2026-11-23,Automático
-kavak,567454,Toyota Yaris 1.5 S CVT hatchback,$,34560000,34560000,2022,31520,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_cvt-hatchback-2022,2026-11-23,Automático
-kavak,567087,Toyota Yaris 1.5 S MT hatchback,$,25410000,25410000,2018,68000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_mt-hatchback-2018,2026-11-23,Manual
-kavak,566644,Toyota Yaris 1.5 XLS + CVT hatchback,$,38380000,38380000,2025,3867,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_plus_cvt-hatchback-2025,2026-11-23,Automático
-kavak,563609,Toyota Yaris 1.5 XLS MT hatchback,$,22860000,22452000,2018,56113,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_mt-hatchback-2018,2026-11-23,Manual
-kavak,562880,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,28360000,27792000,2019,31622,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2019,2026-11-23,Automático
-kavak,562249,Toyota Yaris 1.5 XLS sedan,$,24400000,23952000,2021,48053,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls-sedan-2021,2026-11-23,Manual
-kavak,544480,Toyota Yaris 1.5 XLS PACK CVT sedan,$,22230000,21182000,2020,43891,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-sedan-2020,2026-11-23,Automático
-kavak,567761,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,36530000,36530000,2024,7800,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2024,2026-11-23,Automático
-kavak,567779,Toyota Yaris Manual,$,37710000,37710000,2016,96400,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_cd_sr_4x2-pickup-2016,2026-11-23,
-kavak,567318,Toyota Yaris Manual hatchback,$,27530000,27530000,2023,35000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack-hatchback-2023,2026-11-23,
-kavak,567312,Toyota Yaris Manual sedan,$,33180000,33180000,2023,43000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2023,2026-11-23,
-kavak,567308,Toyota Yaris Manual,$,47110000,47110000,2021,105668,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_srv_4wd_cd-pickup-2021,2026-11-23,
-kavak,567304,Toyota Yaris Automático,$,66090000,66090000,2022,70000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2022,2026-11-23,
-kavak,567301,Toyota Yaris Automático sedan,$,25030000,25030000,2019,100000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli_cvt-sedan-2019,2026-11-23,
-kavak,567816,Toyota Yaris Manual hatchback,$,24180000,24180000,2024,18000,Buenos Aires,https://www.kavak.com/ar/venta/peugeot-208-16l_allure_pack-hatchback-2024,2026-11-23,
-kavak,567815,Toyota Yaris Manual hatchback,$,25810000,25810000,2024,8000,Buenos Aires,https://www.kavak.com/ar/venta/citroen-c3-16_feel-hatchback-2024,2026-11-23,
-kavak,567807,Toyota Yaris Manual hatchback,$,18370000,18370000,2022,92000,Buenos Aires,https://www.kavak.com/ar/venta/fiat-argo-13_drive_pack_conectividad-hatchback-2022,2026-11-23,
-kavak,567802,Toyota Yaris Automático hatchback,$,26390000,26390000,2024,13000,Buenos Aires,https://www.kavak.com/ar/venta/peugeot-208-16l_allure_at-hatchback-2024,2026-11-23,
-kavak,567799,Toyota Yaris Automático,$,33840000,33840000,2022,74000,Buenos Aires,https://www.kavak.com/ar/venta/jeep-renegade-18_sport_auto_my22-suv-2022,2026-11-23,
-kavak,567797,Toyota Yaris Automático,$,34790000,34790000,2018,45000,Buenos Aires,https://www.kavak.com/ar/venta/honda-hr_v-18_ex_l_cvt-suv-2018,2026-11-23,
-kavak,567792,Toyota Yaris Automático,$,40670000,40670000,2023,81000,Buenos Aires,https://www.kavak.com/ar/venta/nissan-frontier-23_td_np300_xe_auto-pickup-2023,2026-11-23,
-kavak,567790,Toyota Yaris Automático sedan,$,27660000,27660000,2018,119000,Buenos Aires,https://www.kavak.com/ar/venta/honda-civic-20_i_vtec_sohc_exl_cvt-sedan-2018,2026-11-23,
-kavak,567776,Toyota Yaris Automático hatchback,$,24680000,24680000,2023,20000,Buenos Aires,https://www.kavak.com/ar/venta/peugeot-208-16l_active_pack_tiptronic-hatchback-2023,2026-11-23,
-kavak,565565,Toyota Yaris 1.5 HEV XEI CVT,$,44760000,43702000,2026,850,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris_cross-15_hev_xei_cvt-suv-2026,2026-11-23,Automático
-kavak,567060,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,66690000,66690000,2022,97376,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2022,2026-11-23,Automático
-kavak,566117,Toyota Yaris 1.8 HYBRID XEI ECVT,$,37810000,36962000,2022,64553,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-18_hybrid_xei_ecvt-suv-2022,2026-11-23,Automático
-kavak,564567,Toyota Yaris 1.5 XLS AT 2016 hatchback,$,17100000,15553913,2016,163892,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at_2016-hatchback-2016,2026-11-23,Automático
-kavak,564204,Toyota Yaris 1.8 SE-G HYBRID CVT sedan,$,37910000,37052000,2023,33069,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_hybrid_cvt-sedan-2023,2026-11-23,Automático
-kavak,563857,Toyota Yaris 1.5 XLS AT hatchback,$,20460000,20132000,2018,82434,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-23,Automático
-kavak,562946,Toyota Yaris 2.4 TDI SR C/D,$,49860000,48642000,2025,6144,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_sr_cd-pickup-2025,2026-11-23,Manual
-kavak,562931,Toyota Yaris 2.0 XLI sedan,$,30630000,29992000,2022,43136,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2022,2026-11-23,Manual
-kavak,562856,Toyota Yaris SRV 3.0 4X2 C/D TDI LTH,$,32500000,31812000,2014,124444,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-srv_30_4x2_cd_tdi_lth-pickup-2014,2026-11-23,Manual
-kavak,562608,Toyota Yaris 1.5 XLS AT hatchback,$,22830000,22432000,2019,61000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2019,2026-11-23,Automático
-kavak,561777,Toyota Yaris 1.5 XLS AT sedan,$,19670000,18921000,2018,64603,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-sedan-2018,2026-11-23,Automático
-kavak,561742,Toyota Yaris 1.8 XEI sedan,$,19730000,19281000,2015,147387,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2015,2026-11-23,Manual
-kavak,561722,Toyota Yaris 1.5 XLS AUTO hatchback,$,25190000,24342000,2021,46076,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_auto-hatchback-2021,2026-11-23,Automático
-kavak,561154,Toyota Yaris 1.5 X hatchback,$,16620000,16011000,2018,105407,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2018,2026-11-23,Manual
-kavak,561064,Toyota Yaris 2.4 TDI DX 4WD C/D,$,37540000,37540000,2024,117308,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2024,2026-11-23,Manual
-kavak,561061,Toyota Yaris 2.4 TDI DX 4WD C/D,$,40540000,40540000,2024,89242,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2024,2026-11-23,Manual
-kavak,561058,Toyota Yaris 2.4 TDI DX 4WD C/D,$,44750000,43692000,2025,28465,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-23,Manual
-kavak,561057,Toyota Yaris 2.4 TDI DX 4WD C/D,$,48890000,47702000,2025,2506,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-23,Manual
-kavak,561055,Toyota Yaris 2.4 TDI DX 4WD C/D,$,48680000,47502000,2025,2768,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-23,Manual
-kavak,561013,Toyota Yaris 1.5 XLS hatchback,$,21950000,21242000,2018,45162,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2018,2026-11-23,Manual
-kavak,560948,Toyota Yaris 1.8 XLI CVT sedan,$,21430000,21062000,2017,109191,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli_cvt-sedan-2017,2026-11-23,Automático
-kavak,560027,Toyota Yaris 1.5 X hatchback,$,21000000,20652000,2022,60000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2022,2026-11-23,Manual
-kavak,559717,Toyota Yaris 2.0 XEI CVT,$,38380000,36362000,2022,34625,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-23,Automático
-kavak,558086,Toyota Yaris 1.5 XLS AT hatchback,$,20460000,19512000,2018,66786,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-23,Automático
-kavak,557488,Toyota Yaris 2.0 XLI CVT,$,35370000,34062000,2023,46113,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xli_cvt-suv-2023,2026-11-23,Automático
-kavak,557329,Toyota Yaris 1.5 XLS AT hatchback,$,20690000,19732000,2018,49706,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-23,Automático
-kavak,556906,Toyota Yaris 1.8 SE-G AUTO sedan,$,11960000,10872566,2010,260053,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_auto-sedan-2010,2026-11-23,Automático
-kavak,556326,Toyota Yaris 2.0 XEI CVT,$,34100000,32332000,2022,69426,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-23,Automático
-kavak,555590,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,30810000,29242000,2023,89663,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2023,2026-11-23,Automático
-kavak,553809,Toyota Yaris 1.8 XLI sedan,$,16250000,15411000,2013,71362,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli-sedan-2013,2026-11-23,Manual
-kavak,553466,Toyota Yaris 1.8 XEI sedan,$,15760000,15191000,2013,166558,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2013,2026-11-23,Manual
-kavak,553330,Toyota Yaris 2.0 XLI CVT sedan,$,32820000,31132000,2024,27541,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2024,2026-11-23,Automático
-kavak,552333,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,35370000,33532000,2023,15650,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2023,2026-11-23,Automático
-kavak,550302,Toyota Yaris 1.8 XLI CVT sedan,$,21580000,20572000,2018,114360,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli_cvt-sedan-2018,2026-11-23,Automático
-kavak,550301,Toyota Yaris 2.0 SE-G CVT sedan,$,29240000,27772000,2020,87586,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_se_g_cvt-sedan-2020,2026-11-23,Automático
-kavak,549854,Toyota Yaris 2.0 GR-S CVT,$,49300000,46622000,2025,32739,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_gr_s_cvt-suv-2025,2026-11-23,Automático
-kavak,547972,Toyota Yaris 2.0 XEI CVT sedan,$,32810000,31122000,2024,52525,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2024,2026-11-23,Automático
-kavak,567008,Toyota Yaris 1.8 HYBRID SEG ECVT,$,45190000,45190000,2024,32000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-18_hybrid_seg_ecvt-suv-2024,2026-11-23,Automático
-kavak,566989,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,74330000,74330000,2023,42612,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2023,2026-11-23,Automático
-kavak,566387,Toyota Yaris 1.8 XLI sedan,$,23380000,23380000,2017,70849,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli-sedan-2017,2026-11-23,Manual
-kavak,566032,Toyota Yaris 1.5 XLS hatchback,$,25190000,24712000,2021,59129,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2021,2026-11-23,Manual
-kavak,565224,Toyota Yaris 1.5 XLS PACK AUTO sedan,$,21710000,21342000,2022,91143,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack_auto-sedan-2022,2026-11-23,Automático
-kavak,565131,Toyota Yaris 2.0 XEI CVT sedan,$,33470000,32752000,2023,51108,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2023,2026-11-23,Automático
-kavak,564797,Toyota Yaris 1.8 SE-G CVT sedan,$,24950000,24482000,2018,94000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_cvt-sedan-2018,2026-11-23,Automático
-kavak,562978,Toyota Yaris 1.5 XS hatchback,$,15950000,15611000,2018,109122,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xs-hatchback-2018,2026-11-23,Manual
-kavak,562538,Toyota Yaris 1.8 XEI AUTO sedan,$,17030000,16661000,2011,60000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_auto-sedan-2011,2026-11-23,Automático
-kavak,560781,Toyota Yaris 1.5 X hatchback,$,18860000,18151000,2022,90667,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2022,2026-11-23,Manual
-kavak,560733,Toyota Yaris 1.5 XLS AUTO sedan,$,22570000,21832000,2021,38690,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_auto-sedan-2021,2026-11-23,Automático
-kavak,557707,Toyota Yaris 2.0 XEI CVT sedan,$,32830000,31142000,2023,38000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2023,2026-11-23,Automático
-kavak,545664,Toyota Yaris 1.8 XEI PACK CVT sedan,$,21710000,20692000,2016,76398,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_pack_cvt-sedan-2016,2026-11-23,Automático
-kavak,534185,Toyota Yaris 1.8 HYBRID SEG ECVT,$,42130000,39852000,2024,33757,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-18_hybrid_seg_ecvt-suv-2024,2026-11-23,Automático
-kavak,566811,Toyota Yaris 2.0 XLI CVT sedan,$,37850000,37850000,2025,14000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2025,2026-11-23,Automático
-kavak,566495,Toyota Yaris 1.8 XEI sedan,$,23860000,23860000,2015,95155,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2015,2026-11-23,Manual
-kavak,566366,Toyota Yaris 2.8 TDI GR-S IV AUTO 4WD C/D,$,80620000,80620000,2026,9408,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_gr_s_iv_auto_4wd_cd-pickup-2026,2026-11-23,Automático
-kavak,564820,Toyota Yaris 1.5 X hatchback,$,23960000,23522000,2023,14000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2023,2026-11-23,Manual
-kavak,563513,Toyota Yaris 2.0 XLI sedan,$,32030000,31352000,2023,37236,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2023,2026-11-23,Manual
-kavak,562869,Toyota Yaris 1.5 XS hatchback,$,15030000,14721000,2017,119553,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xs-hatchback-2017,2026-11-23,Manual
-kavak,562866,Toyota Yaris 1.5 XLS PACK hatchback,$,24560000,24102000,2023,50382,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack-hatchback-2023,2026-11-23,Manual
-kavak,562858,Toyota Yaris 1.5 XLS AT sedan,$,20690000,20352000,2018,71144,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-sedan-2018,2026-11-23,Automático
-kavak,562598,Toyota Yaris 2.0 XLI CVT,$,40560000,39622000,2024,9861,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xli_cvt-suv-2024,2026-11-23,Automático
-kavak,560062,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,30480000,29392000,2021,49888,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2021,2026-11-23,Automático
-kavak,560017,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,35710000,34912000,2024,49408,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2024,2026-11-23,Automático
-kavak,559958,Toyota Yaris 2.0 XEI CVT,$,36620000,35252000,2022,59856,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-23,Automático
-kavak,558842,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,34760000,32952000,2023,38431,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2023,2026-11-23,Automático
-kavak,554182,Toyota Yaris 2.4 VVT-I AUTO sedan,$,21070000,20402000,2012,120701,Buenos Aires,https://www.kavak.com/ar/venta/toyota-camry-24_vvt_i_auto-sedan-2012,2026-11-23,Automático
-kavak,553806,Toyota Yaris 1.5 XLS AT hatchback,$,22160000,21112000,2018,30000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-23,Automático
-kavak,552560,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,64498943,60910943,2024,50000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2024,2026-11-23,Automático
-kavak,551930,Toyota Yaris 2.0 XLI CVT sedan,$,36660000,34742000,2024,9800,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2024,2026-11-23,Automático
-kavak,547334,Toyota Yaris 1.5 XLS PACK AUTO sedan,$,22500000,22500000,2023,83131,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack_auto-sedan-2023,2026-11-23,Automático
-kavak,564590,Toyota Yaris 1.5 XS 2016 sedan,$,16030000,15691000,2016,85347,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xs_2016-sedan-2016,2026-11-23,Manual
-kavak,564159,Toyota Yaris 1.5 XLS hatchback,$,21490000,21132000,2021,72739,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2021,2026-11-23,Manual
-kavak,543570,Toyota Yaris 2.0 CVT 2WD,$,31210000,29622000,2017,91268,Buenos Aires,https://www.kavak.com/ar/venta/toyota-rav4-20_cvt_2wd-suv-2017,2026-11-23,Automático
+kavak,567015,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,25350805,24590805,2018,83000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2018,2026-11-26,Automático
+kavak,566089,Toyota Yaris 1.5 XS CVT hatchback,$,30858458,29928458,2025,32899,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs_cvt-hatchback-2025,2026-11-26,Automático
+kavak,563236,Toyota Yaris 1.5 XS hatchback,$,27854277,27014277,2024,20710,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs-hatchback-2024,2026-11-26,Manual
+kavak,549376,Toyota Yaris 1.5 XLS CVT sedan,$,26326584,25006584,2024,59855,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_cvt-sedan-2024,2026-11-26,Automático
+kavak,546678,Toyota Yaris 1.5 XLS CVT sedan,$,25826957,24276957,2021,43201,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_cvt-sedan-2021,2026-11-26,Automático
+kavak,567520,Toyota Yaris 1.5 XS hatchback,$,26595966,25795966,2021,26000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xs-hatchback-2021,2026-11-26,Manual
+kavak,566373,Toyota Yaris 1.5 XLS sedan,$,26269563,25479563,2020,43670,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls-sedan-2020,2026-11-26,Manual
+kavak,567774,Toyota Yaris 1.5 S CVT hatchback,$,37038032,35928032,2025,6202,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_cvt-hatchback-2025,2026-11-26,Automático
+kavak,567454,Toyota Yaris 1.5 S CVT hatchback,$,33328992,32328992,2022,32542,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_s_cvt-hatchback-2022,2026-11-26,Automático
+kavak,566644,Toyota Yaris 1.5 XLS + CVT hatchback,$,36711172,35611172,2025,3867,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_plus_cvt-hatchback-2025,2026-11-26,Automático
+kavak,563609,Toyota Yaris 1.5 XLS MT hatchback,$,22843712,22153712,2018,56113,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_mt-hatchback-2018,2026-11-26,Manual
+kavak,562880,Toyota Yaris 1.5 XLS PACK CVT hatchback,$,28360000,27510000,2019,31622,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-hatchback-2019,2026-11-26,Automático
+kavak,562249,Toyota Yaris 1.5 XLS sedan,$,24417352,23687352,2021,48053,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls-sedan-2021,2026-11-26,Manual
+kavak,544480,Toyota Yaris 1.5 XLS PACK CVT sedan,$,22151301,20821301,2020,43891,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris-15_xls_pack_cvt-sedan-2020,2026-11-26,Automático
+kavak,568565,Toyota Yaris Automático,$,30340000,30340000,2018,69000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-innova-27_srv_auto-minivan-2018,2026-11-26,
+kavak,568669,Toyota Yaris Manual,$,11750000,11750000,2016,57000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_srv_4wd_cd-pickup-2021,2026-11-26,
+kavak,568652,Toyota Yaris Manual,$,29960000,29960000,2021,33500,Buenos Aires,https://www.kavak.com/ar/venta/jeep-compass-24_sport_my20-suv-2021,2026-11-26,
+kavak,568628,Toyota Yaris Automático sedan,$,12450000,12450000,2016,120000,Buenos Aires,https://www.kavak.com/ar/venta/chevrolet-prisma-14_ltz_at-sedan-2016,2026-11-26,
+kavak,568615,Toyota Yaris Manual,$,14660000,14660000,2016,190000,Buenos Aires,https://www.kavak.com/ar/venta/renault-duster_oroch-16_outsider-pickup-2016,2026-11-26,
+kavak,568580,Toyota Yaris Automático,$,39170000,39170000,2025,14000,Buenos Aires,https://www.kavak.com/ar/venta/jeep-renegade-13_sport_auto-suv-2025,2026-11-26,
+kavak,568577,Toyota Yaris Automático sedan,$,18630000,18630000,2023,82773,Buenos Aires,https://www.kavak.com/ar/venta/fiat-cronos-13_drive_cvt-sedan-2023,2026-11-26,
+kavak,568573,Toyota Yaris Automático,$,31940000,31940000,2024,20000,Buenos Aires,https://www.kavak.com/ar/venta/renault-kardian-10_tce_premiere_edition_auto-suv-2024,2026-11-26,
+kavak,568560,Toyota Yaris Automático hatchback,$,24920000,24920000,2023,50000,Buenos Aires,https://www.kavak.com/ar/venta/chevrolet-cruze_ii-14_lt_auto-hatchback-2023,2026-11-26,
+kavak,568553,Toyota Yaris Automático,$,27940000,27940000,2020,81522,Buenos Aires,https://www.kavak.com/ar/venta/volkswagen-t_cross-16_highline_auto-suv-2020,2026-11-26,
+kavak,565565,Toyota Yaris 1.5 HEV XEI CVT,$,44420026,43090026,2026,2000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-yaris_cross-15_hev_xei_cvt-suv-2026,2026-11-26,Automático
+kavak,567318,Toyota Yaris 1.5 XLS PACK hatchback,$,26955950,26145950,2023,37727,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack-hatchback-2023,2026-11-26,Manual
+kavak,567308,Toyota Yaris 2.8 TDI SRV 4WD C/D,$,47815633,46385633,2021,105668,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_srv_4wd_cd-pickup-2021,2026-11-26,Manual
+kavak,567060,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,65105435,63155435,2022,97376,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2022,2026-11-26,Automático
+kavak,567008,Toyota Yaris 1.8 HYBRID SEG ECVT,$,45935295,44555295,2024,35621,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-18_hybrid_seg_ecvt-suv-2024,2026-11-26,Automático
+kavak,565131,Toyota Yaris 2.0 XEI CVT sedan,$,33619492,32609492,2023,51108,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2023,2026-11-26,Automático
+kavak,564567,Toyota Yaris 1.5 XLS AT 2016 hatchback,$,16504448,15024043,2016,163892,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at_2016-hatchback-2016,2026-11-26,Automático
+kavak,564204,Toyota Yaris 1.8 SE-G HYBRID CVT sedan,$,37921222,36781222,2023,33069,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_hybrid_cvt-sedan-2023,2026-11-26,Automático
+kavak,562946,Toyota Yaris 2.4 TDI SR C/D,$,49237333,47757333,2025,6144,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_sr_cd-pickup-2025,2026-11-26,Manual
+kavak,562931,Toyota Yaris 2.0 XLI sedan,$,30047903,29147903,2022,43136,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2022,2026-11-26,Manual
+kavak,562856,Toyota Yaris SRV 3.0 4X2 C/D TDI LTH,$,32290565,31320565,2014,124444,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-srv_30_4x2_cd_tdi_lth-pickup-2014,2026-11-26,Manual
+kavak,562608,Toyota Yaris 1.5 XLS AT hatchback,$,22422097,21752097,2019,61000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2019,2026-11-26,Automático
+kavak,561777,Toyota Yaris 1.5 XLS AT sedan,$,19678739,18888739,2018,64603,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-sedan-2018,2026-11-26,Automático
+kavak,561742,Toyota Yaris 1.8 XEI sedan,$,19369490,18789490,2015,147387,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2015,2026-11-26,Manual
+kavak,561722,Toyota Yaris 1.5 XLS AUTO hatchback,$,24742977,23752977,2021,46076,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_auto-hatchback-2021,2026-11-26,Automático
+kavak,561154,Toyota Yaris 1.5 X hatchback,$,16407711,15747711,2018,105407,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2018,2026-11-26,Manual
+kavak,561064,Toyota Yaris 2.4 TDI DX 4WD C/D,$,36859131,35749131,2024,117308,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2024,2026-11-26,Manual
+kavak,561061,Toyota Yaris 2.4 TDI DX 4WD C/D,$,39813746,38623746,2024,89242,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2024,2026-11-26,Manual
+kavak,561058,Toyota Yaris 2.4 TDI DX 4WD C/D,$,44255698,42925698,2025,28465,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-26,Manual
+kavak,561057,Toyota Yaris 2.4 TDI DX 4WD C/D,$,48365339,46185339,2025,2506,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-26,Manual
+kavak,561055,Toyota Yaris 2.4 TDI DX 4WD C/D,$,48372924,46922924,2025,2768,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-24_tdi_dx_4wd_cd-pickup-2025,2026-11-26,Manual
+kavak,561013,Toyota Yaris 1.5 XLS hatchback,$,21572919,20712919,2018,45162,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2018,2026-11-26,Manual
+kavak,560361,Toyota Yaris 1.8 SE-G MANUAL sedan,$,19742602,19152602,2012,101622,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_manual-sedan-2012,2026-11-26,Manual
+kavak,560027,Toyota Yaris 1.5 X hatchback,$,20819537,20199537,2022,60000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2022,2026-11-26,Manual
+kavak,559717,Toyota Yaris 2.0 XEI CVT,$,38078456,36178456,2022,34625,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-26,Automático
+kavak,558086,Toyota Yaris 1.5 XLS AT hatchback,$,20397424,19377424,2018,66786,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-26,Automático
+kavak,557488,Toyota Yaris 2.0 XLI CVT,$,35382180,33962180,2023,46113,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xli_cvt-suv-2023,2026-11-26,Automático
+kavak,557329,Toyota Yaris 1.5 XLS AT hatchback,$,20838346,19588346,2018,49706,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-26,Automático
+kavak,556906,Toyota Yaris 1.8 SE-G AUTO sedan,$,11714886,10649896,2010,260053,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_se_g_auto-sedan-2010,2026-11-26,Automático
+kavak,556326,Toyota Yaris 2.0 XEI CVT,$,33988772,31948772,2022,69426,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-26,Automático
+kavak,555590,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,30712103,28872103,2023,89663,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2023,2026-11-26,Automático
+kavak,553809,Toyota Yaris 1.8 XLI sedan,$,16485263,15495263,2013,71362,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli-sedan-2013,2026-11-26,Manual
+kavak,553330,Toyota Yaris 2.0 XLI CVT sedan,$,32711687,30751687,2024,27541,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2024,2026-11-26,Automático
+kavak,552333,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,35253818,33133818,2023,15650,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2023,2026-11-26,Automático
+kavak,550302,Toyota Yaris 1.8 XLI CVT sedan,$,21508772,20428772,2018,114360,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli_cvt-sedan-2018,2026-11-26,Automático
+kavak,550301,Toyota Yaris 2.0 SE-G CVT sedan,$,29017775,27277775,2020,87586,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_se_g_cvt-sedan-2020,2026-11-26,Automático
+kavak,549854,Toyota Yaris 2.0 GR-S CVT,$,48698934,45778934,2025,32739,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_gr_s_cvt-suv-2025,2026-11-26,Automático
+kavak,547972,Toyota Yaris 2.0 XEI CVT sedan,$,32702387,30742387,2024,52525,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2024,2026-11-26,Automático
+kavak,567821,Toyota Yaris 1.8 CVT hatchback,$,22345154,21675154,2018,98000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-prius-18_cvt-hatchback-2018,2026-11-26,Automático
+kavak,567312,Toyota Yaris 2.0 XLI sedan,$,32473446,31503446,2023,43879,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2023,2026-11-26,Manual
+kavak,567304,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,64267399,62337399,2022,70000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2022,2026-11-26,Automático
+kavak,567301,Toyota Yaris 1.8 XLI CVT sedan,$,24073941,23353941,2019,100000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli_cvt-sedan-2019,2026-11-26,Automático
+kavak,566989,Toyota Yaris 2.8 TDI SRX AUTO 4WD,$,72188560,70018560,2023,42612,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_srx_auto_4wd-suv-2023,2026-11-26,Automático
+kavak,566811,Toyota Yaris 2.0 XLI CVT sedan,$,38330127,37180127,2025,14000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2025,2026-11-26,Automático
+kavak,566387,Toyota Yaris 1.8 XLI sedan,$,22924827,22234827,2017,70849,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xli-sedan-2017,2026-11-26,Manual
+kavak,562978,Toyota Yaris 1.5 XS hatchback,$,16035326,15555326,2018,109122,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xs-hatchback-2018,2026-11-26,Manual
+kavak,562538,Toyota Yaris 1.8 XEI AUTO sedan,$,16968815,16458815,2011,60000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_auto-sedan-2011,2026-11-26,Automático
+kavak,560733,Toyota Yaris 1.5 XLS AUTO sedan,$,22281242,21391242,2021,38690,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_auto-sedan-2021,2026-11-26,Automático
+kavak,557707,Toyota Yaris 2.0 XEI CVT sedan,$,33118883,31128883,2023,38000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xei_cvt-sedan-2023,2026-11-26,Automático
+kavak,545664,Toyota Yaris 1.8 XEI PACK CVT sedan,$,21155175,19885175,2016,76398,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_pack_cvt-sedan-2016,2026-11-26,Automático
+kavak,534185,Toyota Yaris 1.8 HYBRID SEG ECVT,$,41988388,39468388,2024,33757,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-18_hybrid_seg_ecvt-suv-2024,2026-11-26,Automático
+kavak,568333,Toyota Yaris 1.5 X hatchback,$,20988161,20358161,2019,47606,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_x-hatchback-2019,2026-11-26,Manual
+kavak,567779,Toyota Yaris 2.8 TDI SR 4WD C/D,$,46118442,44738442,2025,97628,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_sr_4wd_cd-pickup-2025,2026-11-26,Manual
+kavak,566495,Toyota Yaris 1.8 XEI sedan,$,21972425,21312425,2015,95155,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2015,2026-11-26,Manual
+kavak,566366,Toyota Yaris 2.8 TDI GR-S IV AUTO 4WD C/D,$,79959061,77559061,2026,9408,Buenos Aires,https://www.kavak.com/ar/venta/toyota-hilux-28_tdi_gr_s_iv_auto_4wd_cd-pickup-2026,2026-11-26,Automático
+kavak,566032,Toyota Yaris 1.5 XLS hatchback,$,22941854,22251854,2021,59129,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2021,2026-11-26,Manual
+kavak,563857,Toyota Yaris 1.5 XLS AT hatchback,$,20153680,19553680,2018,82434,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-26,Automático
+kavak,563513,Toyota Yaris 2.0 XLI sedan,$,31693738,30743738,2023,37236,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli-sedan-2023,2026-11-26,Manual
+kavak,562866,Toyota Yaris 1.5 XLS PACK hatchback,$,24118794,23398794,2023,50382,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack-hatchback-2023,2026-11-26,Manual
+kavak,562858,Toyota Yaris 1.5 XLS AT sedan,$,20533482,19913482,2018,71144,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-sedan-2018,2026-11-26,Automático
+kavak,562598,Toyota Yaris 2.0 XLI CVT,$,40576988,39356988,2024,9861,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xli_cvt-suv-2024,2026-11-26,Automático
+kavak,560062,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,30279066,29069066,2021,49888,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2021,2026-11-26,Automático
+kavak,560017,Toyota Yaris 1.8 XEI HYBRID CVT sedan,$,35681413,34883413,2024,49408,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei_hybrid_cvt-sedan-2024,2026-11-26,Automático
+kavak,559958,Toyota Yaris 2.0 XEI CVT,$,36601054,35141054,2022,59856,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla_cross-20_xei_cvt-suv-2022,2026-11-26,Automático
+kavak,554182,Toyota Yaris 2.4 VVT-I AUTO sedan,$,20922712,20082712,2012,120701,Buenos Aires,https://www.kavak.com/ar/venta/toyota-camry-24_vvt_i_auto-sedan-2012,2026-11-26,Automático
+kavak,553806,Toyota Yaris 1.5 XLS AT hatchback,$,22093695,20763695,2018,30000,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_at-hatchback-2018,2026-11-26,Automático
+kavak,553466,Toyota Yaris 1.8 XEI sedan,$,15501674,14881674,2013,166558,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-18_xei-sedan-2013,2026-11-26,Manual
+kavak,551930,Toyota Yaris 2.0 XLI CVT sedan,$,36319801,34139801,2024,9800,Buenos Aires,https://www.kavak.com/ar/venta/toyota-corolla-20_xli_cvt-sedan-2024,2026-11-26,Automático
+kavak,547334,Toyota Yaris 1.5 XLS PACK AUTO sedan,$,22500000,22500000,2023,83131,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack_auto-sedan-2023,2026-11-26,Automático
+kavak,534537,Toyota Yaris 2.8 TDI DIAMOND AUTO 4WD,$,67031628,63011628,2022,29070,Buenos Aires,https://www.kavak.com/ar/venta/toyota-sw4-28_tdi_diamond_auto_4wd-suv-2022,2026-11-26,Automático
+kavak,565224,Toyota Yaris 1.5 XLS PACK AUTO sedan,$,21329120,20689120,2022,91143,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls_pack_auto-sedan-2022,2026-11-26,Automático
+kavak,564590,Toyota Yaris 1.5 XS 2016 sedan,$,15785357,15315357,2016,85347,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xs_2016-sedan-2016,2026-11-26,Manual
+kavak,564159,Toyota Yaris 1.5 XLS hatchback,$,21248349,20608349,2021,72739,Buenos Aires,https://www.kavak.com/ar/venta/toyota-etios-15_xls-hatchback-2021,2026-11-26,Manual
+kavak,543570,Toyota Yaris 2.0 CVT 2WD,$,31101231,29231231,2017,91268,Buenos Aires,https://www.kavak.com/ar/venta/toyota-rav4-20_cvt_2wd-suv-2017,2026-11-26,Automático
